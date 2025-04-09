@@ -1,1 +1,163 @@
 @charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family:sans-serif;
+}
+
+body{
+    background: #e8e6e7;
+
+}
+
+header{
+    padding: 20px 70px; 
+    background-color:#1d1d1f ;
+}
+
+.navega{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navega .logo{
+    width:50px ;
+}
+
+.navega ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.navega ul li a{
+    color:#888;
+    font-weight: 00;
+    padding-bottom: 4px;
+    transition: all 0.3s ease-in-out;
+}
+
+.navega ul li a:hover{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.navega .check{
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+main section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+}
+
+.ex img{
+    width: 15rem;
+    margin-bottom: 3vh;
+}
+
+.ex h3{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.ex p{
+    margin-bottom: 1.5rem;
+}
+
+.ex h6{
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.ex .boao{
+    padding: 10px 25px;
+    background-color: #0071e3;
+    border-radius: 20px;
+    color: white;
+    font-size: 1.5rem;
+    transition: all 0.3s;
+}
+
+.ex .boao:hover{
+    opacity: .85;
+}
+
+.ex .exx h5{
+    font-size: 1rem;
+    color: #444;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.ex .con{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ex .con span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px #888;
+    transition: all 0.5s;
+}
+
+.ex .con span:hover{
+    opacity: .80;
+}
+
+#verde{
+    background: #384937;
+}
+
+#rosa{
+    background: palevioletred;
+}
+
+#azul{
+    background: #0071e3;
+}
+
+#black{
+    background: #1d1d1f;
+}
+
+#branco{
+    border: 1px solid black;
+}
+
+#vermelho{
+    background: red;
+}
+
+.img{
+    transition: all 1s ease;
+    z-index: 100;
+}
+
+.img img{
+    width: 500px;
+    transform: rotate(-7deg);
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #445c42;
+    clip-path: circle(800px at right 1000px);
+}
